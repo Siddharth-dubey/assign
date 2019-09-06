@@ -1,0 +1,30 @@
+.App {
+  display:flex;
+  /* justify-content: center; */
+  align-items: center;
+  margin: 20px 10px;
+  flex-direction: column;
+}
+.page-title{
+  text-transform: uppercase;
+  font-size: 44px;
+  /* font-weight: bold; */
+  font-family: sans-serif;
+}
+
+.options-container{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 15px 0;
+  flex-wrap: wrap;
+}
+
+.options label{
+  text-transform: uppercase;
+  margin: 0 5px;
+}
+input[type="text"]{
+  border: 1px solid #ddd;
+    padding: 5px 10px;
+}
